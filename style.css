@@ -1,0 +1,455 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+.header {
+  background-color: rgba(21, 21, 21, 0.6);
+  z-index: 999;
+}
+.container {
+  max-width: 1164px;
+  margin: auto;
+  padding: 0 15px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  margin: 0 -15px;
+}
+.logo {
+  width: 10%;
+}
+.col3 {
+  width: 50%;
+}
+.col9 {
+  width: 50%;
+}
+.ul-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+li a:hover {
+  color: #3f9eeb;
+}
+.image {
+  background-image: url("./images/mainBg.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 160vh;
+}
+.main h1 {
+  font-size: 3.2em;
+  color: #ffffff;
+  padding-top: 3%;
+  font-weight: bold;
+}
+.main p {
+  font-size: 1.2em;
+  color: #ffffff;
+  padding: 2% 0;
+  padding-bottom: 7%;
+}
+.btn-intro {
+  background: linear-gradient(0deg, #f1f9ff 0%, #bedbf2 46.93%, #e8f5ff 100%);
+  border-radius: 23px;
+  border: none;
+  padding: 15px 25px;
+  font-weight: bolder;
+  font-size: 15px;
+  text-align: center;
+  color: #3f9eeb;
+  cursor: pointer;
+}
+.txt-rotate {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 1000;
+  line-height: 20px;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  text-align: left;
+  text-transform: uppercase;
+  max-width: 100%;
+  right: 0;
+  font-size: 50px;
+}
+.btn-2 {
+  background: linear-gradient(0deg, #368ace 0%, #5ab0f6 46.93%, #368ace 100%);
+  border-radius: 23px;
+  border: none;
+  padding: 15px 25px;
+  font-weight: bolder;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+.row-row {
+  display: flex;
+  align-items: center;
+  margin: 0 -15px;
+  justify-content: space-evenly;
+  padding-bottom: 10%;
+}
+.\'facts-heading {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 8%;
+  padding-bottom: 3%;
+}
+.facts-h1 {
+  background: linear-gradient(0deg, #f1f9ff 0%, #2371af 46.93%, #e8f5ff 100%);
+  display: inline;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.facts-heading-two {
+  display: flex;
+  justify-content: center;
+  font-size: 1.6em;
+  padding-bottom: 5%;
+}
+.facts-paragraph {
+  text-align: center;
+  width: 73%;
+  margin: left;
+  margin-left: 16%;
+  padding-bottom: 9%;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 6%;
+}
+.facts h2 {
+  background: linear-gradient(0deg, #f1f9ff 0%, #2371af 46.93%, #e8f5ff 100%);
+  display: inline;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 2.2em;
+}
+.serv-image-image {
+  width: 9%;
+}
+
+.service-cards {
+  text-align: center;
+  display: flex;
+  gap: 2%;
+}
+.serv-h1 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+.service-background {
+  background-image: url(./images/uslugiBg3.png);
+  background-size: auto; /* Preserve the original size of the image */
+  background-position: center top, center bottom; /* Center the background image */
+  width: 100%;
+  height: 140vh;
+  background-repeat: no-repeat;
+}
+.ser-card {
+  background: white;
+  padding: 20px 0;
+  margin: 50px 0;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.ser-button {
+  padding-top: 15%;
+}
+.ser-button-button {
+  background: #ffffff;
+  border-radius: 23px;
+  border: 2px solid #207eb4;
+  padding: 7px 20px;
+  font-weight: bolder;
+  font-size: 15px;
+  text-align: center;
+  color: #207eb4;
+  cursor: pointer;
+}
+.move-container {
+  padding-top: 18%;
+}
+.ser-h1 h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  padding: 9% 0;
+}
+.ser-image {
+  width: 100%;
+}
+.ser-p p {
+  color: #4d4d4d;
+}
+.virtual-image {
+  position: relative;
+  width: 100%; /* You can adjust the width as needed */
+  height: auto; /* Adjust the height as needed */
+}
+
+.vr-img-1,
+.vr-img-2 {
+  position: absolute;
+  width: 100%;
+}
+
+.vr-img-2 {
+  top: -68px;
+  left: 146px;
+  width: 54%;
+}
+.col6 {
+  width: 50%;
+}
+.virtual-main-img-img {
+  position: absolute;
+  width: 25%;
+  height: 110vh;
+}
+.virtual-heading {
+  display: flex;
+  justify-content: center;
+}
+.vr-img-1 {
+  width: 106%;
+  top: -129px;
+}
+.virtual-content {
+  margin-top: 14%;
+}
+.vitual-button-btn {
+  background: linear-gradient(0deg, #368ace 0%, #5ab0f6 46.93%, #368ace 100%);
+  border-radius: 23px;
+  border: none;
+  padding: 15px 25px;
+  font-weight: bolder;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+p.virtual-content-p {
+  color: #2d2d2d;
+  text-indent: 25px;
+  line-height: 20px;
+  width: 80%;
+  font-size: 1.1em;
+}
+.virtual-button {
+  padding-top: 11%;
+}
+.virtual-content {
+  margin-top: 14%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.virtual-reality-h1 {
+  color: #000000;
+  text-align: center;
+  background: linear-gradient(90deg, #5a5bd9 31.12%, #3f9eeb 69%);
+  display: inline;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 2.2em;
+}
+.aug-images {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.au-main-image1 {
+  position: absolute;
+  width: 25%;
+  height: 110vh;
+}
+.aug-image2 {
+  position: absolute;
+  width: 68%;
+  top: -129px;
+  left: -29px;
+}
+.aug-image3 {
+  position: absolute;
+  width: 90%;
+  top: -228px;
+  left: -43px;
+}
+
+.aug-heading {
+  display: flex;
+  justify-content: center;
+  margin: 3%;
+}
+.aug-btn-btn {
+  background: linear-gradient(0deg, #368ace 0%, #5ab0f6 46.93%, #368ace 100%);
+  border-radius: 23px;
+  border: none;
+  padding: 15px 25px;
+  font-weight: bolder;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+.text-aug-p {
+  color: #2d2d2d;
+  text-indent: 25px;
+  line-height: 22px;
+  width: 83%;
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+.aug-heading-h1 {
+  color: #000000;
+  text-align: center;
+  background: linear-gradient(90deg, #5a5bd9 31.12%, #3f9eeb 69%);
+  display: inline;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 2.2em;
+}
+.augmented-reality {
+  margin-bottom: 20%;
+}
+.text-aug {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aug-btn {
+  padding: 9%;
+}
+.aug-main-image1 {
+  position: absolute;
+  width: 62%;
+  top: -270px;
+  left: 315px;
+}
+.portfolio-heading {
+  display: flex;
+  justify-content: center;
+}
+.portfolio {
+  margin-top: 20%;
+}
+.ar-vr-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+  gap: 2%;
+}
+.app-btn {
+  width: 20%;
+}
+.play-btn {
+  width: 20%;
+}
+.cardone-img-img {
+  width: 50%;
+}
+.card-one-ar {
+  display: flex;
+}
+.ar-p1 {
+  color: #000000;
+  font-size: 1.2em;
+  font-weight: 700;
+  text-align: center;
+}
+.ar-p2 {
+  color: #000000;
+  font-size: 1.2em;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 1%;
+}
+.ar-content-btn-btn {
+  background: linear-gradient(0deg, #368ace 0%, #5ab0f6 46.93%, #368ace 100%);
+  border-radius: 23px;
+  border: none;
+  padding: 15px 25px;
+  font-weight: bolder;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+.ar-p3 {
+  text-align: justify;
+}
+.ar-content-btn {
+  margin-top: 20%;
+  margin-bottom: 2%;
+}
+.ar-p3 {
+  text-align: justify;
+  padding-top: 7%;
+  text-indent: 22px;
+}
+.particles-page {
+  width: 100%;
+  max-height: 100%;
+  height: 412px;
+  background: linear-gradient(90.23deg, #5a5bd9 0.18%, #3f9eeb 99.78%);
+}
+
+.particles-page-h1 {
+  text-align: center;
+  color: #ffffff;
+  padding-top: 10%;
+  font-size: 2.2em;
+}
+.particles-page-p {
+  text-align: center;
+  color: #ffffff;
+  padding-top: 2%;
+  font-size: 1.4em;
+}
+.particle-button-btn {
+  background: linear-gradient(0deg, #f1f9ff 0%, #bedbf2 46.93%, #e8f5ff 100%);
+  border-radius: 23px;
+  border: none;
+  padding: 15px 25px;
+  font-weight: bolder;
+  font-size: 15px;
+  text-align: center;
+  color: #3f9eeb;
+  cursor: pointer;
+}
+.particle-button {
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+}
+.blog {
+  margin: 7% 0;
+}
+.blog-heading{
+  
+}
+.blog-heading-h1{
+
+}
