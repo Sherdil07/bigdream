@@ -834,3 +834,21 @@ p.virtual-content-p {
 .footer-li a:hover {
   color: white; /* Change the font color to white on hover */
 }
+/* portfolio css */
+.prev-btn {
+  height: 20px;
+  border: none;
+  background: none;
+  margin: auto;
+  color: chocolate;
+}
+.next-btn {
+  border: none;
+  background: none;
+  color: chocolate;
+  height: 20px;
+  margin: auto;
+}
+.slider-container{
+  display: flex;
+}

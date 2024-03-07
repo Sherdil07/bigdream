@@ -267,16 +267,21 @@
         <h1 class="portfolio-heading-h1">Portfolio</h1>
       </div>
     </div>
+    
     <div class="container">
       <div class="ar-vr-buttons">
         <button>AR</button>
         <button>VR</button>
       </div>
-      <div class="row">
-        <div class="card-one-ar">
+    
+      <div class="slider-container" id="slider">
+        <button class="prev-btn" onclick="prevSlide()">&lt;</button>
+        <div class="slide">
           <div class="col6">
-            <div class="card-one-image">
-              <img class="cardone-img-img" src="./images/arcard1.jpg" alt="" />
+            <div class="card-one-ar">
+              <div class="card-one-image">
+                <img class="cardone-img-img" src="./images/arcard1.jpg" alt="" />
+              </div>
             </div>
           </div>
           <div class="col6">
@@ -286,8 +291,7 @@
               <p class="ar-p3">
                 We have released a series of colorful posters with augmented
                 reality on fire safety for children. Thanks to the clear 4D
-                animation, children can easily learn the basic rules of rules of
-                conduct in case of fire
+                animation, children can easily learn the basic rules of conduct in case of fire.
               </p>
               <div class="ar-content-btn">
                 <button class="ar-content-btn-btn">More Details</button>
@@ -299,8 +303,66 @@
             </div>
           </div>
         </div>
+    
+        <div class="slide">
+          <!-- Second Card -->
+          <div class="col6">
+            <div class="card-one-ar">
+              <div class="card-one-image">
+                <img class="cardone-img-img" src="./images/arWork11.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col6">
+            <div class="ar-card-content">
+              <p class="ar-p1">Milk packaging</p>
+              <p class="ar-p2">Packaging with augmented reality</p>
+              <p class="ar-p3">
+                When pointing the camera, the user will see a character telling about the benefits of the product in an interactive form.
+              </p>
+              <div class="ar-content-btn">
+                <button class="ar-content-btn-btn">More Details</button>
+              </div>
+              <div class="play-app-button">
+                <img class="app-btn" src="./images/appStore.png" alt="" />
+                <img class="play-btn" src="./images/playMarket.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="slide">
+          <!-- Third Card -->
+          <div class="col6">
+            <div class="card-one-ar">
+              <div class="card-one-image">
+                <img class="cardone-img-img" src="./images/arWork9.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col6">
+            <div class="ar-card-content">
+              <p class="ar-p1">Packaging for cookies</p>
+              <p class="ar-p2">Packaging with augmented reality</p>
+              <p class="ar-p3">
+                When pointing the camera, the user will see a character telling about the benefits of the product in an interactive form.
+              </p>
+              <div class="ar-content-btn">
+                <button class="ar-content-btn-btn">More Details</button>
+              </div>
+              <div class="play-app-button">
+                <img class="app-btn" src="./images/appStore.png" alt="" />
+                <img class="play-btn" src="./images/playMarket.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <button class="next-btn" onclick="nextSlide()">&gt;</button>
       </div>
     </div>
+    
+    <script src="script.js"></script>
     <!-- eight particles page  -->
     <div class="particles-page">
       <div class="particles-page-content">
@@ -612,6 +674,12 @@
 
   // Call the function to start displaying characters
   displayCharacters(0);
+</script>
+<script>
+  // Initialize the slider logic on page load
+  document.addEventListener('DOMContentLoaded', function () {
+    initializeSlider();
+  });
 </script>
 
   </body>
