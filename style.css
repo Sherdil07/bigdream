@@ -166,9 +166,35 @@ li a:hover {
   height: 150vh;
   z-index: -1;
 }
+.ser-image{
+  position: relative;
+  width: 82px;
+    height: 85.42px;
+    background-color: #b6dfff;
+    border-radius: 23px;
+    position: relative;
+    margin: auto;
+}
 .serv-image-image {
-  width: 9%;
-  transition: transform 0.3s ease;
+  width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.serv-image-image2{
+  width: 49px;
+  height: 49px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.ser-card:hover .ser-image {
+  background: #3f9eeb;
+  transform: scale(1.2);
 }
 
 .service-cards {
@@ -178,6 +204,7 @@ li a:hover {
   height: 70vh;
   width: 100%;
   padding-left: 2%;
+  margin-top: 1%;
 }
 .serv-h1 {
   display: flex;
@@ -186,7 +213,11 @@ li a:hover {
   color: #ffffff;
   font-weight: 900;
   font-size: 30px;
+  padding-top: 15%;
+  
 }
+
+
 
 .service-background {
   background-image: url(./images/uslugiBg3.png);
@@ -200,7 +231,7 @@ li a:hover {
 .ser-card {
   background: white;
   padding: 20px 0;
-  margin: 50px 0;
+  margin: 40px 0;
   border-radius: 30px;
   cursor: pointer;
  /* hover */
@@ -223,6 +254,7 @@ li a:hover {
   opacity: 1;
   transition: opacity 0.3s ease;
 }
+/* 
 .ser-card:hover .ser-image img {
   transform: scale(1.1);
   background: #3f9eeb;
@@ -234,7 +266,7 @@ li a:hover {
   opacity: 1;
   background: #3f9eeb;
   color: #ffffff;
-}
+} */
 .move-container {
   padding-top: 14%;
 }
@@ -242,10 +274,19 @@ li a:hover {
   font-family: "Montserrat", sans-serif;
   font-size: 1em;
   padding: 9% 0;
+  position: relative;
 }
-.ser-image {
-  width: 100%;
+.ser-h1 h1::after {
+  content: ""; /* Create an empty pseudo-element for the underline */
+  position: absolute;
+  left: 94px;
+  bottom: 25px;
+  width: 50%;
+  height: 1px; /* Adjust the height of the underline as needed */
+  background-color: #c7c7c7; /* Set the color of the underline */
+  display: block;
 }
+
 .ser-p p {
   color: #4d4d4d;
   margin: auto;
